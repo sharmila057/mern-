@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice Website</title>
 </head>
+
 <body>
-    <h1> practice!</h1>
+
+    <header>
+        <h1>Practice Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#header">Header</a></li>
+                <li><a href="#link">About</a></li>
+                <li><a href="#list">Service</a></li>
+                <li><a href="#table">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
     
+
+    <section id="header">
+        <h2>All Headings</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+    <hr>
+    <section>
+        <h1>Hello World</h1>
+        <p>
+            <b>Lorem</b> ipsum dolor sit <i>amet</i> consectetur adipisicing elit.
+            <u>Dignissimos, quaerat.</u><br>
+            Quia impedit molestiae doloribus molestias nisi odit ex qui,
+            facilis iste assumenda.
+        </p>
+    </section>
+    <hr>
+
+    <section id="list">
+        <h2>Lists</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Red</li>
+            <li>Blue</li>
+            <li>Green</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="link">
+        <h2>Link and Image</h2>
+        <a href="https://github.com" target="_blank">Visit GitHub</a>
+        <br><br>
+        <img src="https://media.istockphoto.com/id/930082108/photo/solitary-lime-tree-in-fields-of-rapeseed-and-wheat-under-blue-sky.jpg?s=612x612&w=0&k=20&c=ALuNL8rkWjxYu8aCytJAoW13AdYC2Hc2DIgFbNQ6KcU=" alt="image not found">
+        <video src="assets/istockphoto-1051425098-640_adpp_is.mp4" controls></video>
+        <audio src="assets/mondayhopes-coming-home-bgm-195354.mp3" controls></audio>
+        <iframe src="htps://rampex.in" frameborder="0" height="400" width="400"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_yhBlE3D9cc?si=SJJaYngcRmWjVm7y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <hr>
+
+    <hr>
+        <fieldset>
+            <legend>Student Details</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter the name">
+
+        </fieldset>
+    <hr>
+
+    <section id ="table">
+        <h2>Student Marks Table</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="2">Regd No</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="3">Marks</th>
+                </tr>
+                <tr>
+                    <th>M1</th>
+                    <th>M2</th>
+                    <th>M3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>100</td>
+                    <td>Usha</td>
+                    <td>97</td>
+                    <td>99</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>Pandu</td>
+                    <td>99</td>
+                    <td>88</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Teeku</td>
+                    <td>83</td>
+                    <td>78</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <form >
+
+    <form>
+
+    <label>Name:</label>
+    <input type="text" placeholder="Enter the name">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter the mail">
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" placeholder="Enter the password">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male  
+    <input type="radio" name="gender" value="female"> Female
+    <label > skills: </label>  
+    <input type ="checkbox">MERN
+    <input type ="checkbox">JAVA
+    <input type ="checkbox">DSA
+    <br><br>
+    <label> Country</label>
+    <select >
+        <option value="select"> --select--</option>
+        <option value="India"> India</option>
+        <option value="Russia">russia</option>
+        <option value="China">china</option>
+
+    </select>
+    <br><br>
+    <label >Mobile Number </label>
+    <input type="mobile number " placeholder="Enter the mobile number">
+    <br><br>
+    <label >DOB: </label>
+    <input type="date">
+    <br><br>
+    <label >FEEDBACK</label>
+    <textarea rows="3" cols="40" placeholder="Enter your FEEEDBACK here"></textarea>
+    <br><br>
+    <input type="submit">
+    <input type="reset">
+    <button type="button">click me </button>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    <br><br>
+    <label >Resume: </label>
+    <input type="file">
+    <br><br>
+
+
+
+</form>
+</form>
+    </body>
+    <footer>
+        <center>
+            <p>@2026 MITS Practice website</p>
+        </center>
+    </footer>
+
 </body>
+
 </html>
